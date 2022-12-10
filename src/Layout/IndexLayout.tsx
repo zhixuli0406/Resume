@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Container from '@mui/material/Container';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import LeftMenu from "../Component/LeftMenu";
+import LeftMenu from "./LeftMenu";
 
 const darkTheme = createTheme({
     palette: {
