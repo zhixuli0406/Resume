@@ -3,32 +3,67 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
+import Drawer from '@mui/material/Drawer';
 import LeftMenuHeader from '../Component/LeftMenuHeader';
 import LeftMenuScrollFrame from '../Component/LeftMenuScrollFrame';
+import LeftMenuFooter from '../Component/LeftMenuFooter';
 
 
 interface LeftMenuProps {
-
+    ifLeftMenuOpen: boolean,
+    leftMenuOnClose(isClose: boolean): void,
+    window?: () => Window;
 }
 
+const LeftMenuDrawer = (
+    <Paper id="left-menu" elevation={3} >
+        <LeftMenuHeader />
+        <LeftMenuScrollFrame />
+        <LeftMenuFooter />
+    </Paper>
+)
+
 const LeftMenu = (props: LeftMenuProps) => {
+    const { ifLeftMenuOpen, leftMenuOnClose, window } = props;
+    const container = window !== undefined ? () => window().document.body : undefined;
     return (
         <Box
             sx={{
+                m: 1,
                 display: 'flex',
+                position: 'fixed',
                 flexWrap: 'wrap',
-                '& > :not(style)': {
-                    m: 1,
-                    width: 290,
-                    height: 'calc(100vh - 40px)',
-                },
+                height: 'calc(100vh - 40px)',
+                width: { sm: 300 },
+                flexShrink: { sm: 0 },
+                zIndex: 999
             }}
         >
-            <Paper id="left-menu" elevation={3} >
-                <LeftMenuHeader />
-                <LeftMenuScrollFrame />
-            </Paper>
-        </Box>
+            <Box
+                sx={{
+                    display: { xs: 'none', sm: 'flex' },
+                    '& > :not(style)': { boxSizing: 'border-box', width: 300 },
+                }}
+            >
+                {LeftMenuDrawer}
+            </Box>
+
+            <Drawer
+                container={container}
+                variant="temporary"
+                open={ifLeftMenuOpen}
+                onClose={() => leftMenuOnClose(false)}
+                ModalProps={{
+                    keepMounted: true,
+                }}
+                sx={{
+                    display: { xs: 'flex', sm: 'none' },
+                    '& .MuiDrawer-paper': { boxSizing: 'border-box', width: 300 },
+                }}
+            >
+                {LeftMenuDrawer}
+            </Drawer>
+        </Box >
     )
 }
 
