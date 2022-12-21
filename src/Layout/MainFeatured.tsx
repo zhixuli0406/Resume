@@ -41,7 +41,7 @@ const MainFeatured = () => {
                         position: 'relative',
                         height: '100%',
                         width: '100%',
-                        backgroundImage: 'linear-gradient(180deg, rgba(30, 30, 40, 0.8) 0%, rgba(30, 30, 40, 0.9) 70%, rgba(30, 30, 40, 0.99) 80%, #1e1e28 100%)'
+                        backgroundImage: 'linear-gradient(180deg, rgba(30, 30, 40, 0.9) 0%, rgba(30, 30, 40, 0.95) 70%, rgba(30, 30, 40, 0.99) 80%, #1e1e28 100%)'
                     }}
                 />
             </Box>

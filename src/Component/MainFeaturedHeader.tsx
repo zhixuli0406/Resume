@@ -8,8 +8,10 @@ import Typed from 'react-typed';
 
 const MainFeaturedHeader = () => {
     return (
-        <Box
-            sx={{
+        <section
+            id="started-section"
+            data-element_type="section"
+            style={{
                 paddingTop: '30px',
                 position: 'relative',
                 alignSelf: 'initial',
@@ -70,14 +72,14 @@ const MainFeaturedHeader = () => {
                                 <Box
                                     sx={{
                                         position: 'absolute',
-                                        top: '-30px',
-                                        width: '90%',
-                                        height: '30px',
-                                        marginLeft: '5%',
+                                        top: '-15px',
+                                        width: '95%',
+                                        height: '15px',
+                                        marginLeft: '4%',
                                         boxShadow: '0 3px 8px 0 rgb(15 15 20 / 20%)',
                                         borderTopLeftRadius: '3px',
                                         borderTopRightRadius: '3px',
-                                        background: 'rgba(30, 30, 40, 0.88)'
+                                        background: 'rgba(30, 30, 40, 0.6)'
                                     }}
                                 />
                                 <Box
@@ -95,7 +97,7 @@ const MainFeaturedHeader = () => {
                                             width: '100%'
                                         }}
                                     >
-                                        <Typography variant="h4" gutterBottom sx={{ textAlign: { xs: 'center', sm: 'center', lg: 'left' } }}>
+                                        <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold', textAlign: { xs: 'center', sm: 'center', lg: 'left' } }}>
                                             Discover my Amazing<br />Coding Space!
                                         </Typography>
                                         <Box
@@ -110,9 +112,9 @@ const MainFeaturedHeader = () => {
                                         >
                                             {"<"}
                                             <i style={{ color: '#FFC107' }}>code</i>
-                                            {"> I build "}
+                                            {"> I can do "}
                                             <Typed
-                                                strings={['Web interface.', 'API design.', 'System maintenance.', 'Networks maintenance.']}
+                                                strings={['build web interface.', 'API design.', 'system maintenance.', 'networks maintenance.']}
                                                 typeSpeed={70}
                                                 backSpeed={50}
                                                 loop
@@ -128,7 +130,7 @@ const MainFeaturedHeader = () => {
                     </Box>
                 </Box>
             </Box>
-        </Box>
+        </section>
     )
 }
 
