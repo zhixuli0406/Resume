@@ -31,11 +31,11 @@ const IndexLayout = () => {
                 style={{ transformOrigin: '0 0 0' }}
                 {...(isLoading ? { timeout: 1500 } : {})}
             >
-                <Container maxWidth="xl" fixed sx={{ p: 1 }}>
+                <Container fixed sx={{ p: 1 }}>
                     <AppBar
                         position="fixed"
                         sx={{
-                            display: { xs: 'flex', sm: 'none' }
+                            display: { xs: 'flex', sm: 'flex', lg: 'none' }
                         }}
                     >
                         <Toolbar>
@@ -44,7 +44,7 @@ const IndexLayout = () => {
                                 aria-label="open drawer"
                                 edge="start"
                                 onClick={() => setLeftMenuOpen(true)}
-                                sx={{ mr: 2, display: { sm: 'none' } }}
+                                sx={{ mr: 2, display: { lg: 'none' } }}
                             >
                                 <MoreVertIcon />
                             </IconButton>

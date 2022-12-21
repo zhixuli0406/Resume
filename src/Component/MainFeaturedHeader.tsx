@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import Box from '@mui/material/Box';
+import Typed from 'react-typed';
 
 const MainFeaturedHeader = () => {
     return (
@@ -91,10 +92,35 @@ const MainFeaturedHeader = () => {
                                     <Box
                                         id='banner-title'
                                         sx={{
-                                            width:'100%'
+                                            width: '100%'
                                         }}
                                     >
-                                        <h1><span>Discover my Amazing<br/>Art Space!</span></h1>
+                                        <Typography variant="h4" gutterBottom sx={{ textAlign: { xs: 'center', sm: 'center', lg: 'left' } }}>
+                                            Discover my Amazing<br />Coding Space!
+                                        </Typography>
+                                        <Box
+                                            sx={{
+                                                boxSizing: 'border-box',
+                                                fontFamily: '"Courier Prime", monospace',
+                                                color: '#fafafc',
+                                                mb: 3,
+                                                fontSize: '16px',
+                                                textAlign: { xs: 'center', sm: 'center', lg: 'left' }
+                                            }}
+                                        >
+                                            {"<"}
+                                            <i style={{ color: '#FFC107' }}>code</i>
+                                            {"> I build "}
+                                            <Typed
+                                                strings={['Web interface.', 'API design.', 'System maintenance.', 'Networks maintenance.']}
+                                                typeSpeed={70}
+                                                backSpeed={50}
+                                                loop
+                                            />
+                                            {"</"}
+                                            <i style={{ color: '#FFC107' }}>code</i>
+                                            {">"}
+                                        </Box>
                                     </Box>
                                 </Box>
                             </Box>

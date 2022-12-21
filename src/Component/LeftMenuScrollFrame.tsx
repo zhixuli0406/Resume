@@ -112,15 +112,15 @@ const LeftMenuScrollFrame = () => {
                     width: '0.4em',
                 },
                 '&::-webkit-scrollbar-track': {
-                    background: "#888",
+                    background: "#302e2e",
                     borderRadius: "10px"
                 },
                 '&::-webkit-scrollbar-thumb': {
-                    backgroundColor: '#302e2e',
+                    backgroundColor: '#888',
                     borderRadius: "10px"
                 },
                 '&::-webkit-scrollbar-thumb:hover': {
-                    background: '#121212'
+                    background: '#AAA'
                 }
             }}
         >

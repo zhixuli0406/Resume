@@ -34,14 +34,14 @@ const LeftMenu = (props: LeftMenuProps) => {
                 position: 'fixed',
                 flexWrap: 'wrap',
                 height: 'calc(100vh - 40px)',
-                width: { sm: 300 },
-                flexShrink: { sm: 0 },
+                width: { lg: 300 },
+                flexShrink: { lg: 0 },
                 zIndex: 999
             }}
         >
             <Box
                 sx={{
-                    display: { xs: 'none', sm: 'flex' },
+                    display: { xs: 'none', sm: 'none',lg: 'flex' },
                     '& > :not(style)': { boxSizing: 'border-box', width: 300 },
                 }}
             >
@@ -57,7 +57,7 @@ const LeftMenu = (props: LeftMenuProps) => {
                     keepMounted: true,
                 }}
                 sx={{
-                    display: { xs: 'flex', sm: 'none' },
+                    display: { xs: 'flex',sm: 'flex', lg: 'none' },
                     '& .MuiDrawer-paper': { boxSizing: 'border-box', width: 300 },
                 }}
             >

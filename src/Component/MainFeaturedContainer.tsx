@@ -5,25 +5,21 @@ import MainFeaturedHeader from './MainFeaturedHeader';
 const MainFeaturedContainer = () => {
     return (
         <Box
-            id="scrollbar"
             sx={{
-                opacity: 1
+                opacity: 1,
+                boxSizing: 'border-box'
             }}
         >
             <Box
-                id="post-177"
                 sx={{
                     height: 'auto',
                     overflow: 'visible',
-                    width: '100%'
+                    width: '100%',
+                    boxSizing: 'border-box'
                 }}
             >
-                <Box sx={{ hyphens: 'manual' }}>
-                    <Box>
-                        <Box>
-                            <MainFeaturedHeader />
-                        </Box>
-                    </Box>
+                <Box sx={{ hyphens: 'manual', boxSizing: 'border-box' }}>
+                    <MainFeaturedHeader />
                 </Box>
             </Box>
         </Box>

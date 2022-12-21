@@ -6,11 +6,12 @@ const MainFeatured = () => {
     return (
         <Box
             sx={{
-                paddingLeft: '300px',
+                paddingLeft: { xs: 0, sm: 0, lg: '300px' },
                 overflow: 'hidden',
-                paddingRight: '80px',
+                paddingRight: { xs: 0, sm: 0, lg: '80px' },
                 m: 1,
-                position: 'relative'
+                position: 'relative',
+                mt: { xs: 6, sm: 6, lg: 1 }
             }}
         >
             <Box
@@ -28,7 +29,7 @@ const MainFeatured = () => {
                 sx={{
                     backgroundImage: `url(${process.env.PUBLIC_URL}/image/MainFeaturedBG.jpg)`,
                     overflow: 'hidden',
-                    position: 'relative',
+                    position: 'absolute',
                     width: '100%',
                     backgroundPosition: 'center',
                     height: '400px',
@@ -40,7 +41,7 @@ const MainFeatured = () => {
                         position: 'relative',
                         height: '100%',
                         width: '100%',
-                        backgroundImage: 'linear-gradient(180deg, rgba(30, 30, 40, 0.93) 0%, rgba(30, 30, 40, 0.96) 70%, rgba(30, 30, 40, 0.99) 80%, #1e1e28 100%)'
+                        backgroundImage: 'linear-gradient(180deg, rgba(30, 30, 40, 0.8) 0%, rgba(30, 30, 40, 0.9) 70%, rgba(30, 30, 40, 0.99) 80%, #1e1e28 100%)'
                     }}
                 />
             </Box>
