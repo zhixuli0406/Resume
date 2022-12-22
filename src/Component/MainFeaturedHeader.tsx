@@ -124,6 +124,25 @@ const MainFeaturedHeader = () => {
                                             {">"}
                                         </Box>
                                     </Box>
+                                    <Box
+                                        component="img"
+                                        sx={{
+                                            width: { xs: 0, sm: 0, lg: '320px' },
+                                            height: { xs: 0, sm: 0, lg: '320px' },
+                                            position: 'absolute',
+                                            right: 0,
+                                            bottom: 0,
+                                            maxWidth: '100%',
+                                            border: 'none',
+                                            borderRadius: 0,
+                                            boxShadow: 'none',
+                                            verticalAlign: 'middle',
+                                            overflowClipMargin: 'content-box',
+                                            overflow: 'clip'
+                                        }}
+                                        alt="Photo"
+                                        src={process.env.PUBLIC_URL + "/image/MainFeaturedHeader.png"}
+                                    />
                                 </Box>
                             </Box>
                         </Box>
