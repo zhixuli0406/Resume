@@ -1,23 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid';
-import Link from '@mui/material/Link';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import Typed from 'react-typed';
 
 const MainFeaturedHeader = () => {
     return (
-        <section
+        <Box
+            component="section"
             id="started-section"
-            data-element_type="section"
-            style={{
+            sx={{
                 paddingTop: '30px',
                 position: 'relative',
-                alignSelf: 'initial',
-                order: 'initial',
-                flexGrow: 'initial',
-                flexBasis: 'initial'
             }}
         >
             <Box
@@ -31,7 +24,7 @@ const MainFeaturedHeader = () => {
                 <Box
                     sx={{
                         overflow: 'hidden',
-                        padding: '0 30px',
+                        padding: { xs: '0', sm: '0 30px', lg: '0 30px' },
                         position: 'relative',
                         marginRight: 'auto',
                         marginLeft: 'auto',
@@ -97,14 +90,18 @@ const MainFeaturedHeader = () => {
                                             width: '100%'
                                         }}
                                     >
+                                        <Typography variant="h5" gutterBottom sx={{ fontWeight: 'bold', textAlign: { xs: 'center', sm: 'center', lg: 'left' } }}>
+                                            Welcome to my
+                                        </Typography>
                                         <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold', textAlign: { xs: 'center', sm: 'center', lg: 'left' } }}>
-                                            Discover my Amazing<br />Coding Space!
+                                            Secret Code Space!
                                         </Typography>
                                         <Box
                                             sx={{
                                                 boxSizing: 'border-box',
                                                 fontFamily: '"Courier Prime", monospace',
                                                 color: '#fafafc',
+                                                mt: 1,
                                                 mb: 3,
                                                 fontSize: '16px',
                                                 textAlign: { xs: 'center', sm: 'center', lg: 'left' }
@@ -112,16 +109,22 @@ const MainFeaturedHeader = () => {
                                         >
                                             {"<"}
                                             <i style={{ color: '#FFC107' }}>code</i>
-                                            {"> I can do "}
+                                            {"> What I can do is "}
                                             <Typed
-                                                strings={['build web interface.', 'API design.', 'system maintenance.', 'networks maintenance.']}
+                                                strings={['establish Website UI/UX.', 'create RESTful API.', 'perform system maintenance.', 'set up ISMS.']}
                                                 typeSpeed={70}
                                                 backSpeed={50}
+                                                backDelay={800}
                                                 loop
                                             />
                                             {"</"}
                                             <i style={{ color: '#FFC107' }}>code</i>
                                             {">"}
+                                        </Box>
+                                        <Box sx={{ textAlign: { xs: 'center', sm: 'left', lg: 'left' } }}>
+                                            <Button variant="outlined" href="" >
+                                                Contact Me
+                                            </Button>
                                         </Box>
                                     </Box>
                                     <Box
@@ -136,9 +139,7 @@ const MainFeaturedHeader = () => {
                                             border: 'none',
                                             borderRadius: 0,
                                             boxShadow: 'none',
-                                            verticalAlign: 'middle',
-                                            overflowClipMargin: 'content-box',
-                                            overflow: 'clip'
+                                            verticalAlign: 'middle'
                                         }}
                                         alt="Photo"
                                         src={process.env.PUBLIC_URL + "/image/MainFeaturedHeader.png"}
@@ -149,7 +150,7 @@ const MainFeaturedHeader = () => {
                     </Box>
                 </Box>
             </Box>
-        </section>
+        </Box>
     )
 }
 

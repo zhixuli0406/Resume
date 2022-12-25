@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
 import Paper from '@mui/material/Paper';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
+
 const LeftMenuHeader = () => {
     return (
         <Paper

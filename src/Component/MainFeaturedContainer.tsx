@@ -1,6 +1,9 @@
-import React, { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import MainFeaturedHeader from './MainFeaturedHeader';
+import MainFeaturedSecond from './MainFeaturedSecond';
+import MainFeaturedAboutMe from './MainFeaturedAboutMe';
+import MainFeaturedTimeTree from './MainFeaturedTimeTree';
+import MainFeaturedProject from './MainFeaturedProject';
 
 const MainFeaturedContainer = () => {
     return (
@@ -20,6 +23,10 @@ const MainFeaturedContainer = () => {
             >
                 <Box sx={{ hyphens: 'manual', boxSizing: 'border-box' }}>
                     <MainFeaturedHeader />
+                    <MainFeaturedSecond />
+                    <MainFeaturedAboutMe />
+                    <MainFeaturedTimeTree />
+                    <MainFeaturedProject />
                 </Box>
             </Box>
         </Box>

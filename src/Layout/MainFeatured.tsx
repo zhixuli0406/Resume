@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import MainFeaturedContainer from '../Component/MainFeaturedContainer';
 
@@ -9,7 +8,7 @@ const MainFeatured = () => {
                 paddingLeft: { xs: 0, sm: 0, lg: '300px' },
                 overflow: 'hidden',
                 paddingRight: { xs: 0, sm: 0, lg: '80px' },
-                m: 1,
+                m: { xs: 0, sm: 1, lg: 1 },
                 position: 'relative',
                 mt: { xs: 6, sm: 6, lg: 1 }
             }}
@@ -41,7 +40,7 @@ const MainFeatured = () => {
                         position: 'relative',
                         height: '100%',
                         width: '100%',
-                        backgroundImage: 'linear-gradient(180deg, rgba(30, 30, 40, 0.9) 0%, rgba(30, 30, 40, 0.95) 70%, rgba(30, 30, 40, 0.99) 80%, #1e1e28 100%)'
+                        backgroundImage: 'linear-gradient(180deg, rgba(18, 18, 18, 0.9) 0%, rgba(18, 18, 18, 0.95) 70%, rgba(18, 18, 18, 0.99) 80%, #1e1e28 100%)'
                     }}
                 />
             </Box>
