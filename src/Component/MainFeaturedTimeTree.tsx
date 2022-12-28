@@ -113,8 +113,9 @@ const MainFeaturedTimeTree = () => {
                 <Divider sx={{ mt: 2, mb: 2 }} />
                 <Timeline position="alternate">
                     {
-                        timelineItemList.map((item) => (
+                        timelineItemList.map((item, index) => (
                             <TimelineItemComponent
+                                key={index}
                                 color={item.color}
                                 time={item.time}
                                 title={item.title}

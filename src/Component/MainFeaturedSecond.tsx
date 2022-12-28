@@ -80,7 +80,7 @@ const MainFeaturedSecond = () => {
                 <Grid container spacing={1}>
                     {
                         itemList.map((item) => (
-                            <GridItem value={item.value} text={item.text} />
+                            <GridItem key={item.text} value={item.value} text={item.text} />
                         ))
                     }
 
