@@ -1,13 +1,27 @@
+import { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import Paper from '@mui/material/Paper';
 import InputAdornment from '@mui/material/InputAdornment';
 import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 import PersonIcon from '@mui/icons-material/Person';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import MessageIcon from '@mui/icons-material/Message';
+
 const MainFeaturedContactMe = () => {
+    const [name, setName] = useState("");
+    const [mail, setMail] = useState("");
+    const [message, setMessage] = useState("");
+    const [isValidateMail, setValidateMail] = useState(false);
+
+    useEffect(() => {
+        let regex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]+$/i;
+        let isValidate = regex.test(mail);
+        setValidateMail(isValidate);
+    }, [mail])
+
     return (
         <Box
             component="section"
@@ -46,12 +60,15 @@ const MainFeaturedContactMe = () => {
                                 </InputAdornment>
                             ),
                         }}
+                        value={name}
+                        onChange={(event) => setName(event.target.value)}
+                        autoComplete="none"
                         variant="outlined"
                         sx={{ mb: 3 }}
                     />
                     <TextField
-                        id="contact-section-name-textfield"
-                        label="EMail"
+                        id="contact-section-mail-textfield"
+                        label="Email"
                         fullWidth
                         InputProps={{
                             startAdornment: (
@@ -59,8 +76,13 @@ const MainFeaturedContactMe = () => {
                                     <AlternateEmailIcon />
                                 </InputAdornment>
                             ),
+
                         }}
+                        value={mail}
+                        onChange={(event) => setMail(event.target.value)}
+                        autoComplete="none"
                         variant="outlined"
+                        error={!isValidateMail}
                         sx={{ mb: 3 }}
                     />
                     <TextField
@@ -75,10 +97,19 @@ const MainFeaturedContactMe = () => {
                             ),
                         }}
                         multiline
-                        rows={4}
+                        rows={5}
+                        value={message}
+                        onChange={(event) => setMessage(event.target.value)}
+                        autoComplete="none"
                         variant="outlined"
                         sx={{ mb: 3 }}
                     />
+                    <Button
+                        variant="contained"
+                        disabled={!isValidateMail}
+                    >
+                        Send Message
+                    </Button>
                 </Paper>
             </Box>
         </Box>

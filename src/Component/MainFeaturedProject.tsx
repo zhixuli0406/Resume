@@ -89,7 +89,7 @@ const MainFeaturedProject = () => {
                     loop={true}
                     loopFillGroupWithBlank={true}
                     autoplay={{
-                        delay: 5000,
+                        delay: 3500,
                         disableOnInteraction: false,
                     }}
                     pagination={{
