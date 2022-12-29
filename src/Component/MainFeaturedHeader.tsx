@@ -122,8 +122,15 @@ const MainFeaturedHeader = () => {
                                             {">"}
                                         </Box>
                                         <Box sx={{ textAlign: { xs: 'center', sm: 'left', lg: 'left' } }}>
-                                            <Button variant="outlined" href="" >
-                                                Contact Me
+                                            <Button
+                                                variant="outlined"
+                                                onClick={e => {
+                                                    let hero = document.getElementById("contact-section");
+                                                    e.preventDefault();  // Stop Page Reloading
+                                                    hero && hero.scrollIntoView({ behavior: "smooth", block: "start"});
+                                                }}
+                                            >
+                                                Get in touch
                                             </Button>
                                         </Box>
                                     </Box>

@@ -4,6 +4,7 @@ import MainFeaturedSecond from './MainFeaturedSecond';
 import MainFeaturedAboutMe from './MainFeaturedAboutMe';
 import MainFeaturedTimeTree from './MainFeaturedTimeTree';
 import MainFeaturedProject from './MainFeaturedProject';
+import MainFeaturedContactMe from './MainFeaturedContactMe';
 
 const MainFeaturedContainer = () => {
     return (
@@ -27,6 +28,7 @@ const MainFeaturedContainer = () => {
                     <MainFeaturedAboutMe />
                     <MainFeaturedTimeTree />
                     <MainFeaturedProject />
+                    <MainFeaturedContactMe />
                 </Box>
             </Box>
         </Box>

@@ -6,38 +6,47 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation, Autoplay } from "swiper";
+import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper";
 
 import 'swiper/css';
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-interface MainFeaturedProjectCardProps {
-    name: string,
-    url: string,
-    image: string
-}
-
 const projectList = [
+    {
+        name: "Pilotgaea Official Website",
+        url: "https://www.pilotgaea.com.tw/",
+        image: process.env.PUBLIC_URL + "/image/PilotgaeaOfficialWebsite.PNG"
+    },
     {
         name: "PilotGaea Demo",
         url: "https://demo.pilotgaea.com.tw/",
-        image: ""
+        image: process.env.PUBLIC_URL + "/image/PilotgaeaDemo.PNG"
     },
     {
         name: "Pilotgaea Sample",
         url: "https://sample.pilotgaea.com.tw/demo/",
-        image: ""
+        image: process.env.PUBLIC_URL + "/image/PilotgaeaSample.PNG"
     },
     {
         name: "Story Map",
         url: "https://demo-3dgdp.colife.org.tw/storymap/",
-        image: ""
+        image: process.env.PUBLIC_URL + "/image/StoryMap.PNG"
     },
     {
-        name: "ProgrammingGuide",
+        name: "JGIS",
+        url: "https://demo.pilotgaea.com.tw/jgis/",
+        image: process.env.PUBLIC_URL + "/image/JGIS.PNG"
+    },
+    {
+        name: "Kaohsiung Pipeline Demo",
+        url: "http://demo.pilotgaea.com.tw/KaohsiungPipeline/",
+        image: process.env.PUBLIC_URL + "/image/KaohsiungPipeline.PNG"
+    },
+    {
+        name: "Programming Guide",
         url: "https://sample.pilotgaea.com.tw/demo/ProgrammingGuide/",
-        image: ""
+        image: process.env.PUBLIC_URL + "/image/ProgrammingGuide.PNG"
     },
 ]
 
@@ -66,10 +75,17 @@ const MainFeaturedProject = () => {
                 </Typography>
                 <Divider sx={{ mt: 2, mb: 2 }} />
                 <Swiper
-                    slidesPerView={3}
-                    slidesPerGroup={3}
+                    effect={"coverflow"}
+                    grabCursor={true}
                     spaceBetween={10}
                     centeredSlides={true}
+                    coverflowEffect={{
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    }}
                     loop={true}
                     loopFillGroupWithBlank={true}
                     autoplay={{
@@ -80,7 +96,7 @@ const MainFeaturedProject = () => {
                         clickable: true,
                     }}
                     navigation={true}
-                    modules={[Autoplay, Pagination, Navigation]}
+                    modules={[Autoplay, Pagination, Navigation, EffectCoverflow]}
                     className="projectSwiper"
                     style={{ width: '100%', height: '100%' }}
                 >
@@ -93,11 +109,11 @@ const MainFeaturedProject = () => {
                                     <CardActionArea>
                                         <CardMedia
                                             component="img"
-                                            image="https://mui.com/static/images/cards/contemplative-reptile.jpg"
+                                            image={item.image}
                                             alt={item.name}
                                         />
                                         <CardContent>
-                                            <Typography gutterBottom variant="h5" component="div">
+                                            <Typography gutterBottom variant='h6' component="div" align='center'>
                                                 {item.name}
                                             </Typography>
                                         </CardContent>
@@ -106,8 +122,6 @@ const MainFeaturedProject = () => {
                             </SwiperSlide>
                         ))
                     }
-
-
                 </Swiper>
             </Box>
         </Box>

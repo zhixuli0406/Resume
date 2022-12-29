@@ -7,7 +7,6 @@ const MainFeatured = () => {
             sx={{
                 paddingLeft: { xs: 0, sm: 0, lg: '300px' },
                 overflow: 'hidden',
-                paddingRight: { xs: 0, sm: 0, lg: '80px' },
                 m: { xs: 0, sm: 1, lg: 1 },
                 position: 'relative',
                 mt: { xs: 6, sm: 6, lg: 1 }
