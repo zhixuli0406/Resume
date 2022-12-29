@@ -24,7 +24,7 @@ const projectList = [
         image: process.env.PUBLIC_URL + "/image/PilotgaeaDemo.PNG"
     },
     {
-        name: "Pilotgaea Sample",
+        name: "PilotGaea Sample",
         url: "https://sample.pilotgaea.com.tw/demo/",
         image: process.env.PUBLIC_URL + "/image/PilotgaeaSample.PNG"
     },
