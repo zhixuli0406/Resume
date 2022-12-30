@@ -9,7 +9,7 @@ const MainFeaturedHeader = () => {
             component="section"
             id="started-section"
             sx={{
-                paddingTop: '30px',
+                paddingTop: { xs: '0', sm: '30px', lg: '30px' },
                 position: 'relative',
             }}
         >

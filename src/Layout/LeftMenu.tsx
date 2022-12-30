@@ -30,7 +30,7 @@ const LeftMenu = (props: LeftMenuProps) => {
                 display: 'flex',
                 position: 'fixed',
                 flexWrap: 'wrap',
-                height: 'calc(100vh - 40px)',
+                height: 'calc(100vh - 30px)',
                 width: { lg: 300 },
                 flexShrink: { lg: 0 },
                 zIndex: 999
