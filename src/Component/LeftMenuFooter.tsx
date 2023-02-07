@@ -4,6 +4,7 @@ import IconButton from '@mui/material/IconButton';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import LanguageIcon from '@mui/icons-material/Language';
 
 const LeftMenuFooter = () => {
     return (
@@ -31,6 +32,14 @@ const LeftMenuFooter = () => {
                 onClick={() => window.open("https://www.instagram.com/zhixu_li", "_blank")}
             >
                 <InstagramIcon fontSize="small" />
+            </IconButton>
+            <IconButton
+                color="inherit"
+                size="small"
+                sx={{ m: 0.5 }}
+                onClick={() => window.open("https://zhixu-li.com/", "_blank")}
+            >
+                <LanguageIcon fontSize="small" />
             </IconButton>
         </Box>
     )

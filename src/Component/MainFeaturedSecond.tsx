@@ -13,7 +13,7 @@ const itemList = [
         text: "Years Experience",
     },
     {
-        value: "10+",
+        value: "30+",
         text: "Customer Software project",
     },
     {
