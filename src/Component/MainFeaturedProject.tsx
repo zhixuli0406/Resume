@@ -16,37 +16,37 @@ const projectList = [
     {
         name: "Pilotgaea Official Website",
         url: "https://www.pilotgaea.com.tw/",
-        image: process.env.PUBLIC_URL + "/image/PilotgaeaOfficialWebsite.PNG"
+        image: process.env.PUBLIC_URL + "/image/PilotgaeaOfficialWebsite.webp"
     },
     {
         name: "PilotGaea Demo",
         url: "https://demo.pilotgaea.com.tw/",
-        image: process.env.PUBLIC_URL + "/image/PilotgaeaDemo.PNG"
+        image: process.env.PUBLIC_URL + "/image/PilotgaeaDemo.webp"
     },
     {
         name: "PilotGaea Sample",
         url: "https://sample.pilotgaea.com.tw/demo/",
-        image: process.env.PUBLIC_URL + "/image/PilotgaeaSample.PNG"
+        image: process.env.PUBLIC_URL + "/image/PilotgaeaSample.webp"
     },
     {
         name: "Story Map",
         url: "https://demo-3dgdp.colife.org.tw/storymap/",
-        image: process.env.PUBLIC_URL + "/image/StoryMap.PNG"
+        image: process.env.PUBLIC_URL + "/image/StoryMap.webp"
     },
     {
         name: "JGIS",
         url: "https://demo.pilotgaea.com.tw/jgis/",
-        image: process.env.PUBLIC_URL + "/image/JGIS.PNG"
+        image: process.env.PUBLIC_URL + "/image/JGIS.webp"
     },
     {
         name: "Kaohsiung Pipeline Demo",
         url: "http://demo.pilotgaea.com.tw/KaohsiungPipeline/",
-        image: process.env.PUBLIC_URL + "/image/KaohsiungPipeline.PNG"
+        image: process.env.PUBLIC_URL + "/image/KaohsiungPipeline.webp"
     },
     {
         name: "Programming Guide",
         url: "https://sample.pilotgaea.com.tw/demo/ProgrammingGuide/",
-        image: process.env.PUBLIC_URL + "/image/ProgrammingGuide.PNG"
+        image: process.env.PUBLIC_URL + "/image/ProgrammingGuide.webp"
     },
 ]
 

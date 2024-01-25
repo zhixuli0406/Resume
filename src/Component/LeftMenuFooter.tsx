@@ -10,6 +10,8 @@ const LeftMenuFooter = () => {
     return (
         <Box sx={{ textAlign: "center", pt: 1 }}>
             <IconButton
+                id='linkedin'
+                aria-label='linkedin'
                 color="inherit"
                 size="small"
                 sx={{ m: 0.5 }}
@@ -18,6 +20,8 @@ const LeftMenuFooter = () => {
                 <LinkedInIcon fontSize="small" />
             </IconButton>
             <IconButton
+                id='github'
+                aria-label='github'
                 color="inherit"
                 size="small"
                 sx={{ m: 0.5 }}
@@ -26,6 +30,8 @@ const LeftMenuFooter = () => {
                 <GitHubIcon fontSize="small" />
             </IconButton>
             <IconButton
+                id='instagram'
+                aria-label='instagram'
                 color="inherit"
                 size="small"
                 sx={{ m: 0.5 }}
@@ -34,6 +40,8 @@ const LeftMenuFooter = () => {
                 <InstagramIcon fontSize="small" />
             </IconButton>
             <IconButton
+                id='blog'
+                aria-label='blog'
                 color="inherit"
                 size="small"
                 sx={{ m: 0.5 }}

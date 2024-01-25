@@ -12,7 +12,7 @@ const LeftMenuHeader = () => {
             <Avatar
                 id="left-menu-header-avatar"
                 alt="Louis Li Avatar"
-                src={`${process.env.PUBLIC_URL}/image/Avatar.jpg`}
+                src={`${process.env.PUBLIC_URL}/image/Avatar.webp`}
                 sx={{ width: 90, height: 90, position: "relative", mb: 1 }}
             />
             <Typography

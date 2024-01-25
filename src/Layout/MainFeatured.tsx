@@ -25,7 +25,7 @@ const MainFeatured = () => {
             />
             <Box
                 sx={{
-                    backgroundImage: `url(${process.env.PUBLIC_URL}/image/MainFeaturedBG.jpg)`,
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/image/MainFeaturedBG.webp)`,
                     overflow: 'hidden',
                     position: 'absolute',
                     width: '100%',

@@ -66,7 +66,7 @@ const MainFeaturedAboutMe = () => {
                     In conclusion, I have several experience with full stack web development, information security, systems integration and management training program.
                 </Typography>
                 <Typography gutterBottom sx={{ lineHeight: 1.7, fontWeight: 600 }}>
-                    Please feel free to get in touch with me at <a href="mailto:zhixuli0406@gmail.com">zhixuli0406@gmail.com</a>  –  I look forward to hearing from you!
+                    Please feel free to get in touch with me at <a style={{ color: "#68bb70" }} href="mailto:zhixuli0406@gmail.com">zhixuli0406@gmail.com</a>  –  I look forward to hearing from you!
                 </Typography>
             </Box>
         </Box>

@@ -52,7 +52,7 @@ const MainFeaturedHeader = () => {
                         >
                             <Box
                                 sx={{
-                                    backgroundImage: `url(${process.env.PUBLIC_URL}/image/MainFeaturedBG.jpg)`,
+                                    backgroundImage: `url(${process.env.PUBLIC_URL}/image/MainFeaturedBG.webp)`,
                                     opacity: 1,
                                     backgroundSize: 'cover',
                                     backgroundPosition: 'center',
@@ -79,7 +79,7 @@ const MainFeaturedHeader = () => {
                                     sx={{
                                         position: 'relative',
                                         display: 'flex',
-                                        padding: '60px',
+                                        padding: { xs: '50px', sm: '50px', lg: '60px' },
                                         width: '100%',
                                         backgroundImage: 'linear-gradient(90deg, rgba(45, 45, 58, 0.9) 15%, rgba(45, 45, 58, 0.7) 50%, rgba(43, 43, 53, 0.7) 100%)'
                                     }}
@@ -111,7 +111,7 @@ const MainFeaturedHeader = () => {
                                             <i style={{ color: '#FFC107' }}>code</i>
                                             {"> What I can do is "}
                                             <Typed
-                                                strings={['establish Website UI/UX.', 'create RESTful API.', 'perform system maintenance.', 'set up ISMS.']}
+                                                strings={['establish Website UI/UX', 'create RESTful API', 'perform system maintenance', 'set up ISMS']}
                                                 typeSpeed={70}
                                                 backSpeed={50}
                                                 backDelay={800}
@@ -127,7 +127,7 @@ const MainFeaturedHeader = () => {
                                                 onClick={e => {
                                                     let hero = document.getElementById("contact-section");
                                                     e.preventDefault();  // Stop Page Reloading
-                                                    hero && hero.scrollIntoView({ behavior: "smooth", block: "start"});
+                                                    hero && hero.scrollIntoView({ behavior: "smooth", block: "start" });
                                                 }}
                                             >
                                                 Get in touch
@@ -149,7 +149,7 @@ const MainFeaturedHeader = () => {
                                             verticalAlign: 'middle'
                                         }}
                                         alt="Photo"
-                                        src={process.env.PUBLIC_URL + "/image/MainFeaturedHeader.png"}
+                                        src={process.env.PUBLIC_URL + "/image/MainFeaturedHeader.webp"}
                                     />
                                 </Box>
                             </Box>
