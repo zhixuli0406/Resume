@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "personalInfo": "個人資訊",
+    "experience": "工作經驗",
+    "skills": "核心技能",
+    "teaching": "教學經驗",
+    "contact": "聯絡資訊"
+  },
+  "header": {
+    "name": "Zhi-Xu Li",
+    "chineseName": "力智栩",
+    "title": "Senior Full-Stack Engineer",
+    "subtitle": "資深全端工程師 & 系統分析師",
+    "professionalProfile": "專業簡介",
+    "profileDescription": "擁有超過六年網頁應用程式開發、設計與架構經驗的資深全端工程師，專精於前後端技術整合、系統分析與大型專案管理。具備網路與資訊安全實務背景，持有 ISO27001 ISMS 主導稽核員證照，成功執行並主導多次稽核工作。曾在多家科技公司擔任核心技術職位，展現從零到一的產品開發、系統重構、跨部門協作能力，並具備豐富的技術教學與團隊領導經驗。熱衷於新興技術，致力於持續改進，透過技術創新解決複雜問題。",
+    "philosophy": "個人哲學",
+    "philosophyQuote": "Be determined. Instead of intending to just try, do it.",
+    "philosophyAuthor": "— Yoda, STAR WARS"
+  },
+  "experience": {
+    "title": "工作經驗",
+    "current": "現職",
+    "responsibilities": "主要職責：",
+    "jobs": {
+      "backendFlutter": {
+        "title": "Backend/Flutter Engineer",
+        "company": "GLSoft Software Development Ltd.",
+        "period": "March 2024 – Present",
+        "duration": "現職",
+        "responsibilities": [
+          "主導使用 Flutter 開發及維護 Android 和 iOS 應用程式，包括從零開始建立端到端專案",
+          "負責使用 Java 開發 SAP 和 Solr 全文檢索引擎"
+        ]
+      },
+      "frontend": {
+        "title": "Frontend Engineer",
+        "company": "Cloud Digital Technology Co., Ltd.",
+        "period": "2023 – 2024",
+        "duration": "1年",
+        "responsibilities": [
+          "獨立負責核心 Dashboard 產品的前端架構重構，成功從後端渲染（PHP SSR）遷移至前後端分離架構（React SPA）",
+          "主導前端開發流程，與後端團隊密切合作定義並優化 API 介面，提升開發效率與系統效能",
+          "使用 React 開發漸進式網頁應用程式（PWA），針對行動端使用者體驗最佳化，並整合 Firebase 實現即時通知功能"
+        ]
+      },
+      "fullstack": {
+        "title": "Full-Stack Engineer & System Analyst Designer",
+        "company": "PilotGaea Tech Co., Ltd.",
+        "period": "2020 – 2023",
+        "duration": "3年",
+        "responsibilities": [
+          "主導並執行超過 30 個大型客製化專案，獨立負責至少 15 個專案的完整生命週期，從需求分析、系統設計到開發部署",
+          "成功與國家高速網路與計算中心（NCHC）、中央研究院等政府及研究機構合作，交付高品質解決方案",
+          "主導將公司既有產品核心模組重構為 Python，實現學術單位的二次開發與應用",
+          "團隊領導與培訓：帶領 3+ 工程師團隊進行專案開發，負責任務分配、進度追蹤與技術指導",
+          "成功培訓超過 5 位新進工程師，透過系統性教學、專案實作與程式碼審查，使其在 4 週內達到獨立開發能力，大幅提升整體團隊生產力",
+          "技術講師：擔任企業產品開發培訓講師，執行超過 15 場外部技術培訓課程，並編撰公司產品開發者手冊"
+        ]
+      },
+      "mis": {
+        "title": "MIS Engineer",
+        "company": "Pilotgaea Tech Co., Ltd.",
+        "period": "2019 – 2020",
+        "duration": "1年",
+        "responsibilities": [
+          "負責全公司網路基礎設施的規劃、設計、建置與維護",
+          "主導 ISO27001 資訊安全管理系統（ISMS）的導入實施，成功取得認證；擔任 ISMS 主導稽核員，執行超過 3 次內部及外部主導稽核",
+          "擁有大型防火牆規則設計與管理經驗，以及超過 50 台伺服器系統的建置與維護",
+          "負責 Git、SVN 版本控制系統與 Jenkins CI/CD 流水線的建置、管理與最佳化",
+          "實作並管理 Docker 容器化技術，提升應用程式部署效率與彈性"
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "核心技能",
+    "continuousLearning": "持續學習與技術探索",
+    "learningDescription1": "積極探索並在實務中應用新興技術，包括近期專注於 Model Context Protocol",
+    "learningDescription2": "持續學習並更新既有技能，包括 React、Vue、Flutter 等技術",
+    "categories": {
+      "networkSecurity": {
+        "title": "網路與資訊安全",
+        "skills": [
+          "ISO27001 ISMS（主導稽核員資格）",
+          "網路架構規劃",
+          "防火牆政策設計",
+          "系統管理（Linux/Windows Server）",
+          "弱點掃描與修補",
+          "資訊安全事件應變"
+        ]
+      },
+      "frontend": {
+        "title": "前端開發",
+        "skills": [
+          "React",
+          "JavaScript (ES6+)",
+          "HTML5",
+          "CSS3",
+          "SCSS",
+          "響應式網頁設計（RWD）",
+          "漸進式網頁應用程式（PWA）",
+          "API 整合與最佳化"
+        ]
+      },
+      "backend": {
+        "title": "後端開發",
+        "skills": [
+          "Java",
+          "Node.js",
+          "Python",
+          "RESTful API 設計",
+          "Apache Solr",
+          "SAP 整合",
+          "MS SQL",
+          "PostgreSQL",
+          "MongoDB",
+          "JWT/OAuth 認證"
+        ]
+      },
+      "mobile": {
+        "title": "行動應用程式開發",
+        "skills": [
+          "Flutter",
+          "Dart (Android/iOS)"
+        ]
+      },
+      "devops": {
+        "title": "開發與 DevOps 工具",
+        "skills": [
+          "Git",
+          "Jenkins",
+          "Docker"
+        ]
+      },
+      "systemAnalysis": {
+        "title": "系統分析與設計",
+        "skills": [
+          "需求收集與分析",
+          "系統架構設計",
+          "資料庫設計",
+          "專案管理"
+        ]
+      }
+    }
+  },
+  "teaching": {
+    "title": "教學與演講經驗",
+    "guestLecturer": {
+      "title": "客座講師",
+      "institution": "國立高雄科技大學 資訊工程系",
+      "description": "受邀講授 React 前端框架開發課程，指導大學部及研究所學生進行專案實作，總計超過 8 堂課程。透過實際案例教學，幫助學生掌握現代前端開發技術與最佳實務。",
+      "tags": ["React", "前端開發", "專案實作", "8+ 課程"]
+    },
+    "corporateTraining": {
+      "title": "企業技術培訓講師",
+      "company": "PilotGaea Tech Co., Ltd.",
+      "achievements": [
+        "執行超過 15 場外部技術培訓課程，涵蓋產品開發、系統架構設計等主題",
+        "編撰公司產品開發者手冊，建立標準化開發流程與最佳實務",
+        "成功培訓超過 5 位新進工程師，使其在 4 週內達到獨立開發能力"
+      ],
+      "tags": ["技術培訓", "15+ 場次", "手冊編撰", "團隊培訓"]
+    },
+    "philosophy": {
+      "title": "教學理念",
+      "description": "相信實作是學習與成長的最佳方式，並以此作為指導原則。透過系統性教學、專案實作與程式碼審查的結合，幫助學習者建立扎實的技術基礎，並培養解決問題的能力。勇於面對挑戰，持續追求改進與成長。",
+      "quote": "實踐出真知，教學相長中成就彼此的技術成長"
+    }
+  },
+  "contact": {
+    "title": "聯絡資訊",
+    "phone": "0971753062",
+    "email": "zhixuli0406@gmail.com",
+    "linkedin": "LinkedIn Profile"
+  }
+}

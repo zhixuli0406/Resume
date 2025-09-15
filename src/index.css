@@ -1,13 +1,118 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    @apply box-border;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .card-shadow {
+    @apply shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+}
+
+/* PDF Specific Styles */
+.pdf-resume {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+}
+
+.pdf-resume h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.pdf-resume h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.pdf-resume h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.pdf-resume p {
+  margin-bottom: 1rem;
+}
+
+.pdf-resume ul {
+  margin-bottom: 1rem;
+}
+
+.pdf-resume li {
+  margin-bottom: 0.25rem;
+}
+
+.pdf-resume .border-l-4 {
+  border-left-width: 4px;
+}
+
+.pdf-resume .bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+.pdf-resume .bg-blue-50 {
+  background-color: #eff6ff;
+}
+
+.pdf-resume .bg-green-50 {
+  background-color: #f0fdf4;
+}
+
+.pdf-resume .text-blue-600 {
+  color: #2563eb;
+}
+
+.pdf-resume .text-green-600 {
+  color: #16a34a;
+}
+
+.pdf-resume .text-red-600 {
+  color: #dc2626;
+}
+
+.pdf-resume .text-purple-600 {
+  color: #9333ea;
+}
+
+.pdf-resume .text-orange-600 {
+  color: #ea580c;
+}
+
+.pdf-resume .text-teal-600 {
+  color: #0d9488;
 }

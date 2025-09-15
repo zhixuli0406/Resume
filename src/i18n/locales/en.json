@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "personalInfo": "Personal Info",
+    "experience": "Experience",
+    "skills": "Skills",
+    "teaching": "Teaching",
+    "contact": "Contact"
+  },
+  "header": {
+    "name": "Zhi-Xu Li",
+    "chineseName": "力智栩",
+    "title": "Senior Full-Stack Engineer",
+    "subtitle": "Senior Full-Stack Engineer & System Analyst",
+    "professionalProfile": "Professional Profile",
+    "profileDescription": "A Senior Full-Stack Engineer with over six years of experience in web application development, design, and architecture, specializing in front-end and back-end technology integration, system analysis, and large-scale project management. Possesses a strong practical background in network and information security, holding an ISO27001 ISMS Lead Auditor certification, with a track record of successfully implementing and conducting multiple audits. Has held key technical positions in several technology companies, demonstrating capabilities in zero-to-one product development, system refactoring, and cross-departmental collaboration, complemented by extensive experience in technical teaching and team leadership. Passionate about emerging technologies and committed to continuous improvement, dedicated to solving complex problems through technological innovation.",
+    "philosophy": "Personal Philosophy",
+    "philosophyQuote": "Be determined. Instead of intending to just try, do it.",
+    "philosophyAuthor": "— Yoda, STAR WARS"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "current": "Current",
+    "responsibilities": "Key Responsibilities:",
+    "jobs": {
+      "backendFlutter": {
+        "title": "Backend/Flutter Engineer",
+        "company": "GLSoft Software Development Ltd.",
+        "period": "March 2024 – Present",
+        "duration": "Current",
+        "responsibilities": [
+          "Spearheaded the development and maintenance of Android and iOS apps using Flutter, including end-to-end project establishment from scratch",
+          "Responsible for developing SAP and Solr full-text search engines using Java"
+        ]
+      },
+      "frontend": {
+        "title": "Frontend Engineer",
+        "company": "Cloud Digital Technology Co., Ltd.",
+        "period": "2023 – 2024",
+        "duration": "1 year",
+        "responsibilities": [
+          "Independently managed the front-end architecture refactoring of the core Dashboard product, successfully migrating from backend rendering (PHP SSR) to a front-end/back-end separated architecture (React SPA)",
+          "Led the front-end development process, collaborating closely with the backend team to define and optimize API interfaces, enhancing development efficiency and system performance",
+          "Developed Progressive Web Applications (PWA) using React, optimized for mobile user experience, and integrated Firebase to implement real-time notification features"
+        ]
+      },
+      "fullstack": {
+        "title": "Full-Stack Engineer & System Analyst Designer",
+        "company": "PilotGaea Tech Co., Ltd.",
+        "period": "2020 – 2023",
+        "duration": "3 years",
+        "responsibilities": [
+          "Led and executed over 30 large-scale customized projects, independently managing the entire lifecycle for at least 15 projects from requirements analysis and system design through to development and deployment",
+          "Successfully collaborated with government and research institutions such as the National Center for High-performance Computing (NCHC) and Academia Sinica, delivering high-quality solutions",
+          "Directed the project to refactor the company's existing product core modules into Python, enabling secondary development and application by academic units",
+          "Team Leadership & Training: Led a team of 3+ engineers in project development, responsible for task allocation, progress tracking, and technical guidance",
+          "Successfully trained over 5 new engineers through systematic teaching, project-based learning, and code reviews, enabling them to achieve independent development capabilities within 4 weeks and significantly boosting overall team productivity",
+          "Technical Instructor: Served as a corporate product development training instructor, conducting over 15 external technical training sessions and compiling the company's product developer manuals"
+        ]
+      },
+      "mis": {
+        "title": "MIS Engineer",
+        "company": "Pilotgaea Tech Co., Ltd.",
+        "period": "2019 – 2020",
+        "duration": "1 year",
+        "responsibilities": [
+          "Responsible for the planning, design, establishment, and maintenance of the company-wide network infrastructure",
+          "Led the implementation of the ISO27001 Information Security Management System (ISMS), successfully achieving certification; served as an ISMS Lead Auditor, conducting over 3 internal and external lead audits",
+          "Experienced in large-scale firewall rule design and management, and the setup and maintenance of over 50 server systems",
+          "Managed the setup, administration, and optimization of Git, SVN version control systems, and Jenkins CI/CD pipelines",
+          "Implemented and managed Docker containerization technology, enhancing application deployment efficiency and flexibility"
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Core Competencies",
+    "continuousLearning": "Continuous Learning & Technical Exploration",
+    "learningDescription1": "Actively exploring and applying emerging technologies in practice, including recent focus on Model Context Protocol",
+    "learningDescription2": "Continuously learning and updating existing skills, including React, Vue, and Flutter",
+    "categories": {
+      "networkSecurity": {
+        "title": "Network & Information Security",
+        "skills": [
+          "ISO27001 ISMS (Lead Auditor Qualification)",
+          "Network Architecture Planning",
+          "Firewall Policy Design",
+          "System Administration (Linux/Windows Server)",
+          "Vulnerability Scanning & Patching",
+          "Information Security Incident Response"
+        ]
+      },
+      "frontend": {
+        "title": "Frontend Development",
+        "skills": [
+          "React",
+          "JavaScript (ES6+)",
+          "HTML5",
+          "CSS3",
+          "SCSS",
+          "Responsive Web Design (RWD)",
+          "Progressive Web Applications (PWA)",
+          "API Integration & Optimization"
+        ]
+      },
+      "backend": {
+        "title": "Backend Development",
+        "skills": [
+          "Java",
+          "Node.js",
+          "Python",
+          "RESTful API Design",
+          "Apache Solr",
+          "SAP integration",
+          "MS SQL",
+          "PostgreSQL",
+          "MongoDB",
+          "JWT/OAuth Authentication"
+        ]
+      },
+      "mobile": {
+        "title": "Mobile Application Development",
+        "skills": [
+          "Flutter",
+          "Dart (Android/iOS)"
+        ]
+      },
+      "devops": {
+        "title": "Development & DevOps Tools",
+        "skills": [
+          "Git",
+          "Jenkins",
+          "Docker"
+        ]
+      },
+      "systemAnalysis": {
+        "title": "System Analysis & Design",
+        "skills": [
+          "Requirements Elicitation & Analysis",
+          "System Architecture Design",
+          "Database Design",
+          "Project Management"
+        ]
+      }
+    }
+  },
+  "teaching": {
+    "title": "Teaching & Speaking Engagements",
+    "guestLecturer": {
+      "title": "Guest Lecturer",
+      "institution": "National Kaohsiung University of Science and Technology, Department of Computer Science and Information Engineering",
+      "description": "Invited to lecture on React front-end framework development, guiding undergraduate and graduate students in project implementation, totaling over 8 course sessions. Through practical case studies, helping students master modern front-end development technologies and best practices.",
+      "tags": ["React", "Frontend Development", "Project Implementation", "8+ Courses"]
+    },
+    "corporateTraining": {
+      "title": "Corporate Technical Training Instructor",
+      "company": "PilotGaea Tech Co., Ltd.",
+      "achievements": [
+        "Conducted over 15 external technical training sessions covering product development, system architecture design, and other topics",
+        "Compiled the company's product developer manuals, establishing standardized development processes and best practices",
+        "Successfully trained over 5 new engineers, enabling them to achieve independent development capabilities within 4 weeks"
+      ],
+      "tags": ["Technical Training", "15+ Sessions", "Manual Compilation", "Team Training"]
+    },
+    "philosophy": {
+      "title": "Teaching Philosophy",
+      "description": "Believe that practice is the best way to learn and grow, and adhere to this as a guiding principle. Through the combination of systematic teaching, project-based learning, and code reviews, help learners build solid technical foundations and develop problem-solving abilities. Courageously face challenges and continuously pursue improvement and growth.",
+      "quote": "Practice makes perfect, mutual growth through teaching and learning"
+    }
+  },
+  "contact": {
+    "title": "Contact Information",
+    "phone": "0971753062",
+    "email": "zhixuli0406@gmail.com",
+    "linkedin": "LinkedIn Profile"
+  }
+}

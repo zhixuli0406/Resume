@@ -1,0 +1,48 @@
+Zhi-Xu Li (力智栩) 0971753062 | zhixuli0406@gmail.com | https://www.linkedin.com/in/zhixuli0406/
+
+Professional Profile
+
+A Senior Full-Stack Engineer with over six years of experience in web application development, design, and architecture, specializing in front-end and back-end technology integration, system analysis, and large-scale project management. Possesses a strong practical background in network and information security, holding an ISO27001 ISMS Lead Auditor certification, with a track record of successfully implementing and conducting multiple audits. Has held key technical positions in several technology companies, demonstrating capabilities in zero-to-one product development, system refactoring, and cross-departmental collaboration, complemented by extensive experience in technical teaching and team leadership. Passionate about emerging technologies and committed to continuous improvement, dedicated to solving complex problems through technological innovation.
+
+Professional Experience
+
+Backend/Flutter Engineer | GLSoft Software Development Ltd. | March 2024 – Present
+Spearheaded the development and maintenance of Android and iOS apps using Flutter, including end-to-end project establishment from scratch.
+Responsible for developing SAP and Solr full-text search engines using Java.
+Frontend Engineer | Cloud Digital Technology Co., Ltd. | 2023 – 2024 (1 year)
+Independently managed the front-end architecture refactoring of the core Dashboard product, successfully migrating from backend rendering (PHP SSR) to a front-end/back-end separated architecture (React SPA).
+Led the front-end development process, collaborating closely with the backend team to define and optimize API interfaces, enhancing development efficiency and system performance.
+Developed Progressive Web Applications (PWA) using React, optimized for mobile user experience, and integrated Firebase to implement real-time notification features.
+Full-Stack Engineer & System Analyst Designer | PilotGaea Tech Co., Ltd. | 2020 – 2023 (3 years)
+Led and executed over 30 large-scale customized projects, independently managing the entire lifecycle for at least 15 projects from requirements analysis and system design through to development and deployment.
+Successfully collaborated with government and research institutions such as the National Center for High-performance Computing (NCHC) and Academia Sinica, delivering high-quality solutions.
+Directed the project to refactor the company's existing product core modules into Python, enabling secondary development and application by academic units.
+Team Leadership & Training: Led a team of 3+ engineers in project development, responsible for task allocation, progress tracking, and technical guidance.
+Successfully trained over 5 new engineers through systematic teaching, project-based learning, and code reviews, enabling them to achieve independent development capabilities within 4 weeks and significantly boosting overall team productivity.
+Technical Instructor: Served as a corporate product development training instructor, conducting over 15 external technical training sessions and compiling the company's product developer manuals.
+MIS Engineer | Pilotgaea Tech Co., Ltd. | 2019 – 2020 (1 year)
+Responsible for the planning, design, establishment, and maintenance of the company-wide network infrastructure.
+Led the implementation of the ISO27001 Information Security Management System (ISMS), successfully achieving certification; served as an ISMS Lead Auditor, conducting over 3 internal and external lead audits.
+Experienced in large-scale firewall rule design and management, and the setup and maintenance of over 50 server systems.
+Managed the setup, administration, and optimization of Git, SVN version control systems, and Jenkins CI/CD pipelines.
+Implemented and managed Docker containerization technology, enhancing application deployment efficiency and flexibility.
+Core Competencies
+
+Network & Information Security: ISO27001 ISMS (Lead Auditor Qualification), Network Architecture Planning, Firewall Policy Design, System Administration (Linux/Windows Server), Vulnerability Scanning & Patching, Information Security Incident Response.
+Frontend Development: React, JavaScript (ES6+), HTML5, CSS3, SCSS, Responsive Web Design (RWD), Progressive Web Applications (PWA), API Integration & Optimization.
+Backend Development: Java, Node.js, Python, RESTful API Design, Apache Solr, SAP integration, MS SQL, PostgreSQL, MongoDB, JWT/OAuth Authentication.
+Mobile Application Development: Flutter, Dart (Android/iOS).
+Development & DevOps Tools: Git, Jenkins, Docker.
+System Analysis & Design: Requirements Elicitation & Analysis, System Architecture Design, Database Design, Project Management.
+Teaching & Speaking Engagements
+
+Guest Lecturer | National Kaohsiung University of Science and Technology, Department of Computer Science and Information EngineeringInvited to lecture on React front-end framework development, guiding undergraduate and graduate students in project implementation, totaling over 8 course sessions.
+Continuous Learning & Technical Exploration
+
+Actively exploring and applying emerging technologies in practice, including recent focus on Model Context Protocol.
+Continuously learning and updating existing skills, including React, Vue, and Flutter.
+Personal Philosophy
+
+"Be determined. Instead of intending to just try, do it." – Yoda, STAR WARS. I firmly believe that practice is the best way to learn and grow, and I adhere to this as a guiding principle, courageously facing challenges and continuously striving for improvement.
+
+Look forward to your reply!
